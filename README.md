@@ -1,4 +1,5 @@
 # Lenovo Legion 5 15IMH05a - EFI
+Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 > Disclaimer: You will be responsible for any loss or damage whatsoever caused. Taking a backup is recommended.
 
@@ -7,10 +8,6 @@
 ## Guides
 * (Main Guide) Dortania's OpenCore Installation Guide - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 * MacOS Installation & Post Installation Steps (Video Guide for Additional Reference) - [View](https://youtu.be/IP7crXa-5lo?t=180)
-
-## Specifications
-* Intel i5 10300H
-* GTX 1650 (Not Supported)
 
 ## Steps to Follow
 * Make a macOS Installer USB - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html)
@@ -22,9 +19,11 @@
 * Post Installation (if required) - [View Steps](https://dortania.github.io/OpenCore-Post-Install/)
   
 ## Camera
-Camera doesn't work in 'Image Capture' app. Use these -
-Image Capture - [Quick Camera](https://apps.apple.com/in/app/quick-camera/id598853070?mt=12)
-Video Recording - [Camera Recorder Lite](https://apps.apple.com/in/app/camera-recorder-lite/id738387556?mt=12)
+Camera doesn't work in 'Image Capture' app. Install these from App Store -
+
+* Image Capture - [Quick Camera](https://apps.apple.com/in/app/quick-camera/id598853070?mt=12)
+
+* Video Recording - [Camera Recorder Lite](https://apps.apple.com/in/app/camera-recorder-lite/id738387556?mt=12)
 
 ## Not Working :(
 * Trackpad
