@@ -21,14 +21,19 @@
 * If everything works properly, then move OpenCore from USB to macOS Disk - [View Guide](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
 * Post Installation (if required) - [View Steps](https://dortania.github.io/OpenCore-Post-Install/)
   
+## Camera
+Camera doesn't work in 'Image Capture' app. Use these -
+Image Capture - [Quick Camera](https://apps.apple.com/in/app/quick-camera/id598853070?mt=12)
+Video Recording - [Camera Recorder Lite](https://apps.apple.com/in/app/camera-recorder-lite/id738387556?mt=12)
+
 ## Not Working :(
 * Trackpad
 * HDMI
 
 ## Notes
-* Use USB Tethering to share internet from your phone if WiFi is not working at the macOS installation step
-* To access EFI after moving from USB to macOS Drive, use Terminal to mount EFI - [View Guide](https://hologos.github.io/how-to-mount-efi-from-command-line-terminal/)
+* Use USB Tethering if WiFi is not working.
+* Mount EFI to access it after moving from USB to macOS Drive using Terminal - [View Guide](https://hologos.github.io/how-to-mount-efi-from-command-line-terminal/)
 * WiFi kext needs to be changed depending on macOS version - [Download WiFi Kext](https://github.com/OpenIntelWireless/itlwm/releases)
 * config.plist needs to be updated after changing EFI contents like WiFi kext above. Use snapshot feature from ProperTree for updating - [Download ProperTree](https://github.com/corpnewt/ProperTree)
-* In case the system doesn't boot properly after changing EFI contents or anything, just boot from the macOS Installer USB that we created before. Make the changes in the EFI from macOS Drive as required.
-* Better to store the contents of the macOS Installer USB to your phone or cloud storage in case of any future use.
+* Simply boot from the macOS Installer USB to your macOS Drive in case the system doesn't boot properly from EFI on macOS Drive.
+* Backup the contents of the macOS Installer USB to your phone or cloud storage in case of any future use.
