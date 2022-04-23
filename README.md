@@ -32,7 +32,7 @@ Camera doesn't work in 'Image Capture' app. Install these from App Store -
 ## Notes
 * Use USB Tethering if WiFi is not working.
 * You can access EFI after moving from USB to macOS Drive by mounting it using Terminal - [View Guide](https://hologos.github.io/how-to-mount-efi-from-command-line-terminal/)
-* WiFi kext needs to be changed depending on macOS version - [Download WiFi Kext](https://github.com/OpenIntelWireless/itlwm/releases)
+* WiFi kext used is for Catalina only - [Download WiFi Kext](https://github.com/OpenIntelWireless/itlwm/releases) for your macOS version
 * config.plist needs to be updated after changing EFI contents like WiFi kext above. Use snapshot feature from ProperTree for updating - [Download ProperTree](https://github.com/corpnewt/ProperTree)
 * Simply boot from the macOS Installer USB to your macOS Drive in case the system doesn't boot properly from EFI on macOS Drive.
 * Backup the contents of the macOS Installer USB to your phone or cloud storage in case of any future use.
