@@ -17,13 +17,6 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 * Install macOS (Erasing the drive will remove everything on that drive, take a backup first) - [View Guide](https://youtu.be/IP7crXa-5lo?t=196)
 * If everything works properly, then move OpenCore from USB to macOS Disk - [View Guide](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
 * Post Installation (if required) - [View Steps](https://dortania.github.io/OpenCore-Post-Install/)
-  
-## Camera
-Camera doesn't work in 'Image Capture' app. Install these from App Store -
-
-* Image Capture - [Quick Camera](https://apps.apple.com/in/app/quick-camera/id598853070?mt=12)
-
-* Video Recording - [Camera Recorder Lite](https://apps.apple.com/in/app/camera-recorder-lite/id738387556?mt=12)
 
 ## Not Working :(
 * Trackpad
