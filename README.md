@@ -1,4 +1,4 @@
-# Lenovo Legion 5 15IMH05a - EFI
+# Lenovo Legion 5 15IMH05a - Hackintosh
 Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 > Disclaimer: You will be responsible for any loss or damage whatsoever caused. Taking a backup is recommended.
