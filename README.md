@@ -1,31 +1,30 @@
-# Lenovo Legion 5 15IMH05a - Hackintosh
+# Legion 5 15IMH05a - Catalina 10.15.7 & Windows 10 (OpenCore)
 Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 > Disclaimer: You will be responsible for any loss or damage whatsoever caused. Taking a backup is recommended.
 
-## Tested on Catalina 10.15.7 using OpenCore 0.8.0
-
 ## Guides
 * (Main Guide) Dortania's OpenCore Installation Guide - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/)
-* MacOS Installation & Post Installation Steps (Video Guide for Additional Reference) - [View](https://youtu.be/IP7crXa-5lo?t=180)
+* MacOS Installation & Post Installation Steps (Video Guide for Additional Reference) - [View Guide](https://youtu.be/IP7crXa-5lo?t=180)
+* Dual Boot Hackinotosh Guide by Brandon Yen - [View Guide](https://youtu.be/ztxHRGdX0Sw)
 
 ## Steps to Follow
+
+### 1. Install macOS
+
 * Make a macOS Installer USB - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html)
 * [Download EFI](https://github.com/abhishek110022/Legion-5-15IMH05a-EFI/releases) and place it in the root of USB - [Reference Screenshot](https://dortania.github.io/OpenCore-Install-Guide/assets/img/com-efi-done.a6fb730e.png)
-* Disable 'Secure Boot' from BIOS (BIOS Key - F2)
-* Boot from the Installer USB (Change Boot Order - 'EFI USB Device' at Top)
+* Disable 'Secure Boot' from BIOS Settings (BIOS Key - F2)
+* Boot from the Installer USB (Will be named as 'EFI USB Device')
 * Install macOS (Erasing the drive will remove everything on that drive, take a backup first) - [View Guide](https://youtu.be/IP7crXa-5lo?t=196)
 * If everything works properly, then move OpenCore from USB to macOS Disk - [View Guide](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
 * Post Installation (if required) - [View Steps](https://dortania.github.io/OpenCore-Post-Install/)
 
-## Not Working :(
-* Trackpad
-* HDMI
+### 2. Dual Boot with Windows 10 (Same Drive)
 
-## Notes
-* Use USB Tethering if WiFi is not working.
-* You can access EFI after moving from USB to macOS Drive by mounting it using Terminal - [View Guide](https://hologos.github.io/how-to-mount-efi-from-command-line-terminal/)
-* WiFi kext used is for Catalina only - [Download WiFi Kext](https://github.com/OpenIntelWireless/itlwm/releases) for your macOS version
-* config.plist needs to be updated after changing EFI contents like WiFi kext above. Use snapshot feature from ProperTree for updating - [Download ProperTree](https://github.com/corpnewt/ProperTree)
-* You can simply boot from the macOS Installer USB to your macOS Drive in case the system doesn't boot properly from EFI on macOS Drive.
-* Recommended - Backup the contents of the macOS Installer USB to your phone or cloud storage in case of any future use.
+* Make a Windows Installer USB
+  - Download [Windows 10.iso](https://www.microsoft.com/en-in/software-download/windows10ISO)
+  - Format USB Drive as exFAT from Disk Utility
+  - Open Windows 10 ISO file and copy all the content to the formatted USB Drive
+* Follow the [Dual Boot Guide](https://youtu.be/ztxHRGdX0Sw)
+* After installing Windows, boot from 'Windows Boot Manager'
