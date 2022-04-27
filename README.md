@@ -7,7 +7,6 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 ## Important
 * You will be responsible for any loss or damage whatsoever caused. Taking a backup is recommended.
-* Battery Setting doesn't work in Lenovo Vantage after installing OpenCore. Enable/disable 'Conservation Mode' and 'Rapid Charge' according to your needs initially, as you can't change this later. 
 
 ## Guides
 * (Main Guide) Dortania's OpenCore Installation Guide - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -42,5 +41,8 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 * Windows Boot Manager for Windows 10
 
 ## Not Working :(
-* macOS - Trackpad & HDMI
-* Windows - Lenovo Vantage Battery Settings
+* Trackpad
+* HDMI
+
+## Discussion
+Dicuss if you have any problem - [Discussion Forum](https://github.com/abhishek110022/Legion-5-15IMH05a-Hackintosh/discussions/1)
