@@ -41,7 +41,6 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 * Windows Boot Manager for Windows 10
 
 ## Not Working :(
-* Trackpad
 * HDMI
 
 ## Discussion
