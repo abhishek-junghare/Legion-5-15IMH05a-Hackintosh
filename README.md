@@ -40,3 +40,7 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 ## Not Working :(
 * HDMI
+
+## Credits
+* Thanks to [@LuckyCrack](https://github.com/LuckyCrack) for base EFI - https://github.com/LuckyCrack/Legion-5i-EFI
+* Thanks to [@dortania](https://github.com/dortania) for OpenCore Guide
