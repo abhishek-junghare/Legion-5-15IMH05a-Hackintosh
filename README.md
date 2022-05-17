@@ -13,8 +13,8 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 ## Steps to Follow
 
-* BIOS Settings: F2
-* Boot Menu: F12
+> BIOS Settings: F2
+> Boot Menu: F12
 
 ### 1. Install macOS
 
