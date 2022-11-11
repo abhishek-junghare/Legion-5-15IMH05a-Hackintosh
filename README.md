@@ -1,6 +1,6 @@
 # Legion 5 15IMH05a - Hackintosh Big Sur (Dual Boot - Same Drive)
 
-## Dual boot macOS Big Sur & Windows on same drive
+## Dual boot macOS Big Sur 11.7.1 & Windows 10/11 on same drive
 Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 > You will be responsible for any loss or damage whatsoever caused. Taking a backup is recommended.
