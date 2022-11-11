@@ -1,10 +1,9 @@
-# Legion 5 15IMH05a - Dual Boot Hackintosh (Same Drive)
+# Legion 5 15IMH05a - Hackintosh Big Sur (Dual Boot - Same Drive)
 
-## Dual boot macOS Catalina 10.15.7 & Windows 10 on same drive
+## Dual boot macOS Big Sur & Windows on same drive
 Intel Core i5 10300H + nVidia GTX 1650 4GB
 
-## Important
-* You will be responsible for any loss or damage whatsoever caused. Taking a backup is recommended.
+> You will be responsible for any loss or damage whatsoever caused. Taking a backup is recommended.
 
 ## Guides
 * (Main Guide) Dortania's OpenCore Installation Guide - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -14,6 +13,7 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 ## Steps to Follow
 
 > BIOS Settings: F2
+
 > Boot Menu: F12
 
 ### 1. Install macOS
@@ -34,12 +34,9 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
   - Open Windows 10 ISO file and copy all the content to the formatted USB Drive
 * Follow the [Dual Boot Guide](https://youtu.be/ztxHRGdX0Sw)
 
-### 3. Dual Boot - Boot Menu
-* OpenCore for macOS
-* Windows Boot Manager for Windows 10
-
 ## Not Working :(
 * HDMI
+* Black screen after sleep (disable sleep & set 'Turn display off' to never from macos)
 
 ## Credits
 * Thanks to [@LuckyCrack](https://github.com/LuckyCrack) for base EFI - https://github.com/LuckyCrack/Legion-5i-EFI
