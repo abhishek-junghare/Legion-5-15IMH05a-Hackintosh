@@ -18,7 +18,7 @@ Intel Core i5 10300H + nVidia GTX 1650 4GB
 
 ### 1. Install macOS
 
-* Make a macOS Installer USB - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html)
+* Make a macOS Installer USB - [View Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 * [Download EFI](https://github.com/abhishek110022/Legion-5-15IMH05a-EFI/releases) and place the EFI folder it in macOS Installer USB - [Reference Screenshot](https://dortania.github.io/OpenCore-Install-Guide/assets/img/com-efi-done.a6fb730e.png)
 * Disable 'Secure Boot' from BIOS Settings
 * Boot from the Installer USB (Will be named as 'EFI USB Device')
